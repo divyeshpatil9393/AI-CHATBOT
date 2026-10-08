@@ -1,0 +1,24 @@
+# Secrets
+.env
+*.env.local
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Runtime data (uploads, vector DB, document registry)
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/data/
+
+# Node
+node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
